@@ -1,0 +1,12 @@
+streamlit
+dash
+flask
+transformers
+huggingface_hub
+sentence-transformers
+google-cloud-speech
+google-api-python-client
+tweepy
+pandas
+matplotlib
+plotly
