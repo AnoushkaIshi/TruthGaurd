@@ -1,7 +1,6 @@
 import requests
-
-# Define the NewsAPI endpoint and API key
-NEWS_API_KEY = "4c767184f1d7445fba4ee681fe7cba02"
+import os
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")  
 NEWS_API_URL = "https://newsapi.org/v2/everything"
 
 # Fetch news articles based on a keyword
